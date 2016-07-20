@@ -1,2 +1,3 @@
-# Chill-Chill
-Web Design practice. Site for icecream shop. Playing with color and keyframes
+# Chill + Chill
+
+Web Design practice. Site for icecream shop. For this site my main focus was experimenting with CSS key frames.
