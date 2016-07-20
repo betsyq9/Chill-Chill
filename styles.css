@@ -1,0 +1,182 @@
+
+/*Key Frames********************/
+
+@keyframes fade_in_horizontal {
+    from {
+        opacity: 0;
+        transform: translateX(-400px);
+}
+    to {
+        opacity: 1;
+        transform : translateX(0);
+    }
+}
+
+@keyframes fade_in_vertical {
+    from {
+        opacity: 0;
+        transform: translateY(-200px);
+}
+    to {
+        opacity: 1;
+        transform : translateY(0);
+    }
+}
+
+@keyframes fade_in {
+    from {
+        opacity: 0;
+        }
+
+    to {
+        opacity: 1;
+          }
+}
+
+ @-webkit-keyframes one {
+      0%{background-position:0% 68%;}
+      50%{background-position:100% 33%;}
+      100%{background-position:0% 68%;}
+  }
+  @-moz-keyframes one {
+      0%{background-position:0% 68%;}
+      50%{background-position:100% 33%;}
+      100%{background-position:0% 68%;}
+  }
+  @keyframes one {
+      0%{background-position:0% 68%;}
+      50%{background-position:100% 33%;}
+      100%{background-position:0% 68%;}
+  }
+
+
+/*******************************************/
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background: linear-gradient(318deg, #53dad9, #63ddef, #81fa7e);
+  background-size: 900%;
+  -webkit-animation: fade_in .8s ease-in;
+  -moz-animation: fade_in .8s ease-in;
+  animation: fade_in .8s ease-in;
+  -webkit-animation: one 10s ease-in infinite;
+  -moz-animation: one 10s ease-in infinite;
+  animation: one 10s ease-in infinite;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+}
+
+nav a:hover {
+ color: #0099cc;
+}
+
+.menu {
+ margin: 2em 10% 0 10%;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: .5em;
+  margin-top: 1em;
+  letter-spacing: 10px;
+ }
+
+h2 {
+  font-weight: 800;
+  color: #ffaa80;
+  padding-top: .5em;
+  text-transform: uppercase;
+}
+
+ul {
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+  width: 10em;
+}
+
+.main_menu {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+ }
+
+.main_menu, .favorites {
+  background-color: white;
+  padding: 1em;
+  border-radius: 10px;
+  }
+
+.favorites {
+ margin-top: 3em;
+}
+
+h3 {
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+
+/******* Contact form ***********/
+.table {
+  display: flex;
+  margin-left: 15%;
+  color: #0099cc;
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.form_text {
+  margin-right: 2em;
+  margin-top: -15px;
+}
+
+input {
+  padding: .8em;
+  margin: 14em;
+  display: flex;
+  margin: auto;
+  margin-bottom: 1em;
+ }
+
+.submit_button {
+  width: 30%;
+  text-align: center;
+  font-family: inherit;
+  text-transform: uppercase;
+  background-color: #0099cc;
+  color: white;
+  margin-right: 0px;
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************/
